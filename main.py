@@ -85,5 +85,7 @@ def count_max_comparisons(r):
     print("Max comparisons for binary search:", max_b)
     print("Max comparisons for ternary search:", max_t)
 
-        
-
+if __name__ == "__main__":
+    print("Enter range to check for:")
+    r = int(input())
+    count_max_comparisons(r)
